@@ -7,7 +7,7 @@ from utils import read_file,get_table_data
 from logger import logging
 
 # importing necessary packages from the langchain
-from langchain_openai import ChatOpenAI
+from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 #from langchain.schema import RunnableSequence
 from langchain.chains import SequentialChain
@@ -16,7 +16,7 @@ from langchain.chains import LLMChain
 # load the variables from the .env file
 load_dotenv()
 key = os.getenv("OPENAI_API_KEY")
-llm = ChatOpenAI(openai_api_key=key, model="gpt-3.5-turbo", temperature=0.4)
+llm = OpenAI(api_key=key, model="gpt-3.5-turbo", temperature=0.4)
 
 template = """
 Text:{text}
