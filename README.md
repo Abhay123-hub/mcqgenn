@@ -61,9 +61,9 @@ mcq_generator/
 Contributions are welcome! Feel free to **fork** this repository, create a new branch, and submit a pull request.
 
 ## 🔗 GitHub Repository
-[MCQ Generator - GitHub](https://github.com/Abhay123-hub/mcq_generator)
+[MCQ Generator - GitHub](https://github.com/Abhay123-hub/mcqgenn)
 
 ## 📧 Contact
-For any queries, reach out via **[LinkedIn](https://linkedin.com/in/abhay)** or open an issue on GitHub!
+For any queries, reach out via **[LinkedIn](https://www.linkedin.com/in/abhay-thakur-b6518b25a/)** or open an issue on GitHub!
 
 🚀 Happy Learning with AI! 🚀
